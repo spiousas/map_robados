@@ -23,7 +23,7 @@ folium.Choropleth(
     name = 'Robos totales por provincia 2018/19',
     data = data,
     columns = ['nam', 'Patentados'],
-    key = "features.properties.nam",
+    key_on = "features.properties.nam",
     fill_color='YlOrRd',
     nan_fill_color = 'red',
     fill_opacity=.7,
